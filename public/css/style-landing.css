@@ -1,0 +1,371 @@
+html {
+    background-color: #000;
+}
+
+.navbar {
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.nav-item .nav-link{
+    color: white !important;
+}
+
+.navbar-toggler:hover {
+    border-color: white !important;
+}
+.nav-item .nav-link:hover, .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.767) !important;
+}
+
+nav .container {
+    padding: 20px 0;
+}
+
+.background {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+.jumbotron {
+    background-image: url('../img/landing/bg-main.svg');
+    text-align: center;
+
+}
+
+.jumbotron-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron-content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.jumbotron h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.jumbotron-content .btn-warning {
+    text-transform: uppercase;
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 8px 40px;
+    margin: auto;
+}
+
+.jumbotron a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a .fa-angles-down{
+    margin-top: 30px;
+}
+.jumbotron a:hover, .fa-angles-down:hover {
+    color: rgba(136, 135, 135, 0.87);
+}
+ /* about */
+.about {
+    background-image: url('../img/landing/bg-about.svg');
+    text-align: center;
+    color: white;
+}
+
+div > h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.px;
+    margin-top: 20vh;    
+}
+
+div > h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 2px;
+}
+
+.carousel-inner {
+    margin-top: 10vh;
+}
+
+
+/* game features */
+.game-features {
+    background-image: url('../img/landing/bg-feature.svg');
+    color: white;
+}
+
+.game-content {
+    margin: 0 2em 0 1em !important;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.game-features .list-features {
+    color:#FFB548;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+ul p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.col-lg-5 ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    
+}
+
+/* system req */
+.system-req {
+    background-image: url('../img/landing/bg-requirements.svg');
+}
+
+.system-req h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1em;
+
+}
+
+.system-req h4 {
+    color: #FFB548;
+}
+
+.system-req p {
+    color: white;
+    margin-bottom: 1em;
+}
+
+/* top scores */
+.top-scores {
+    background-image: url('../img/landing/bg-top-scores.png');
+}
+
+.top-scores .content-scores {
+    text-align: center;
+    color: white;
+    /* margin-top: 0px; */
+}
+
+.content-scores h1 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+}
+
+.card {
+    margin: auto;
+    background-color: rgba(90, 88, 88, 0.24) !important;
+    color: white;
+    border-radius: 20px;
+}
+
+.img-quotes {
+    width: 70px;
+    /* margin: 10px; */
+}
+
+.card-body h5 {
+    color: #FFB548;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.card-body small {
+    color: rgba(202, 202, 202, 0.87);
+}
+
+/* subscribe */
+.subscribe {
+    background-color: #000;
+    height: 700px !important;
+    color: white;
+}
+ .subscribe h2 {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+ }
+/* footer */
+.footer {
+    background-color: #000;
+    color: white;
+ }
+
+ .footer-link ul {
+     list-style-type: none;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .footer-link ul li {
+     float: right;
+ }
+ 
+ .footer-link a {
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     margin: 0 1em;
+ }
+
+ .footer-link a:hover {
+     color: rgba(202, 202, 202, 0.87);
+ }
+
+ .list-tc {
+     float: right;
+     margin: 0 1em;
+     flex-direction: row-reverse;
+     color: white !important;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ .list-tc:hover {
+     color: rgba(202, 202, 202, 0.87) !important;
+ }
+/* Desktop */
+@media (min-width: 992px) {
+    .navbar {
+        background-color:rgba(0, 0, 0, 0.6);
+    }
+    .nav-item .nav-link {
+        margin-left: 50px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: 0.1em;
+    }
+    
+    .jumbotron {
+        background: url('../img/landing/bg-main.svg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .jumbotron-content h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        line-height: 83px;
+        text-align: center;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+    
+    .jumbotron h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+    /* about */
+    div > h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 2px;
+        margin-top: 20vh;    
+    }
+    
+    div > h1 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: 3px;
+    }
+    
+    .carousel-inner {
+        margin-top: 25vh;
+    }
+
+    .game-content {
+        text-align: left;
+        margin: 0 !important;
+    }
+
+    /* top scores */
+    .top-scores .content-scores {
+        text-align: left;
+        margin-top: 200px;
+    }
+
+    .img-quotes {
+        width: 100px;
+        margin: 10px;
+    }
+
+    }

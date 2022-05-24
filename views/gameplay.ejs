@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style-game.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <div class="header">
+    <i class="fas fa-less-than fa-3x"></i>
+    <img class="logo" src="/img/gameplay/logo1.png" alt="logo">
+    <h2 class="title-logo">ROCK PAPER SCISSORS</h2>
+  </div>
+  <div class="container">
+    <div class="player">
+      <h3>Player 1</h3>
+      <div id="item-rock">
+        <img src="/img/gameplay/rock.png" class="player-hand hand rock" id="player-rock" alt="rock">
+      </div>
+      <div id="item-paper">
+        <img src="/img/gameplay/paper.png" class="player-hand hand paper" id="player-paper" alt="paper">
+      </div>
+      <div id="item-scissors">
+        <img src="/img/gameplay/scissors.png" class="player-hand hand paper" id="player-scissors" alt="scissors">
+      </div>
+    </div>
+    <div class="vs">
+      <div class="only-vs">
+        <h1 class="result-text">VS</h1>
+      </div>
+      <div class="refresh">
+        <a href="#"><img class="refresh-item" src="/img/gameplay/refresh.png" id="refresh-page" alt="refresh" style="height: 70px;"></a>
+      </div>
+    </div>
+    <div class="comp">
+      <h3>COM</h3>
+      <div id="item-rock-comp">
+        <img src="/img/gameplay/rock.png" class="hand rock" id="compRock" alt="rock">
+      </div>
+      <div id="item-paper-comp">
+        <img src="/img/gameplay/paper.png" class="hand paper" id="compPaper" alt="paper">
+      </div>
+      <div id="item-scissors-comp">
+         <img src="/img/gameplay/scissors.png" class="hand scissors" id="compScissors" alt="scissors">
+      </div>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
